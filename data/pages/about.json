@@ -1,4 +1,19 @@
 {
-	"title" : "about",
-	"description" : "Relax and Enjoy your life because stress is not worth it."
+	"title" : "About",
+	"description" : "Relax and Enjoy your life because stress is not worth it.",
+
+	"sections" : [
+
+		{
+ 			"module": "generic-text",
+ 			"heading": "Top 10 poetry skills one should pursue",
+ 			"paragraph": "This advanced approach gives you more control over the generation process, allowing you to experiment with different techniques and parameters. Remember to refer to the official documentation and community forums for the latest features and best practices in using Stable Diffusion with Hugging Face Diffusers.",
+ 			 "link": "#"
+
+ 		}
+
+ 		
+
+ 	]
+
 }

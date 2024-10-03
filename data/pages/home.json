@@ -1,7 +1,23 @@
 {
 	"title" : "Home",
-	"description" : "A very kind welcome to my humble abode."
- 
+	"description" : "A very kind welcome to my humble abode.",
+ 	"sections" : [
+ 		
+ 		{
+ 			"module": "graphic-diptych",
+ 			"image": "images/shot.png",
+ 			"paragraph": "Remember that padding can increase memory usage, especially for large datasets. Always consider the trade-offs between consistency in your data processing pipeline and computational efficiency"
 
+ 		}, 
+
+ 		{
+ 			"module": "generic-text",
+ 			"heading": "Top 10 poetry skills one should pursue",
+ 			"paragraph": "This advanced approach gives you more control over the generation process, allowing you to experiment with different techniques and parameters. Remember to refer to the official documentation and community forums for the latest features and best practices in using Stable Diffusion with Hugging Face Diffusers.",
+ 			 "link": "#"
+
+ 		}
+
+ 	]
 }
 

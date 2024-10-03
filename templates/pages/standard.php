@@ -1,15 +1,22 @@
 <?php 
-
-	$data = convertJson($home);
+	$pageSlug = getPage();
+	$pageData = convertJson($pageSlug);
+	$sections = $pageData['sections'];
 
  ?>
 
 
 <main>
 
-	<h1><?= $data['title'] ?></h1>
+	<h1><?= $pageData['title'] ?></h1>
 
-	<p> <?= $data['description'] ?></p>
+	<?php 
+	foreach ($sections as $section) {
+		$module= $section['module'];
+
+	}
+	include ("templates/modules/$module/$module.php")
+	?>
 
 
 </main>

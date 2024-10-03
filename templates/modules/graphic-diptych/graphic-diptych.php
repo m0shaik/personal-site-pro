@@ -1,6 +1,8 @@
 <?php 
 
+$diptychImage = $section['image'];
 
+$diptychParagraph = $section['paragraph'];
 
 
 
@@ -11,19 +13,15 @@
 <section class="graphic-diptych">
 	<inner-column>
 
-		<h2>
-
-		</h2>
-
-		<p>
-			
-		</p>
-
 		<picture>
-			<img src="" alt="">
+			<img src="<?= $diptychImage ?>" alt="">
 		</picture>
 
-		<a href=""></a>
+
+		<p>
+			<?= $diptychParagraph ?>
+		</p>
+
 
 	</inner-column>
 </section>
