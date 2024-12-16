@@ -1,0 +1,32 @@
+{
+
+	"title" : "home",
+	"intro" : "Welcome to my Dynamic Land",
+	"template": "standard",
+	"sections" : [
+
+		{
+			"module": "name-card"
+		},
+		
+		{
+			"module": "quote-card"
+		},
+
+		{
+			"module" : "about-cards",
+
+			"cards" : [
+				"I would describe myself as an under accomplished developer. I have a long journey of learning and self-mentoring ahead.",
+				"I have got my hands on learning front-end designing using CSS and JS.. ",
+				"I am here to show potential recruiters about my capabilities and interests. I hope for them to see more than what my resume offers. ",
+				"I love learning new things from time to time.",
+				"I yearn for projects that are challenging and can keep me up .",
+				"Challenges that require me to think outside the box are my favourites."
+
+			]
+		}
+	]
+
+}
+

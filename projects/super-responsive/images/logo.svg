@@ -1,0 +1,21 @@
+
+<svg width="100%" height="100%" viewBox="0 0 125 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2829,-32.3133)">
+        <g id="Artboard3" transform="matrix(1,0,0,0.560831,-0.135551,16.1043)">
+            <rect x="2829.14" y="28.902" width="124.542" height="95.542" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="2829.14" y="28.902" width="124.542" height="95.542"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(2.23738,0,0,0.580859,-1212.45,-446.248)">
+                    <g transform="matrix(1,0,0,6.86809,-602.64,-180.8)">
+                        <path d="M2432.36,169.203L2410.71,169.203C2409.61,167.304 2409.03,165.151 2409.03,162.959C2409.03,156.066 2414.64,150.47 2421.53,150.47C2428.43,150.47 2434.03,156.066 2434.03,162.959C2434.03,165.151 2433.45,167.304 2432.36,169.203Z" style="fill:rgb(251,52,57);"/>
+                    </g>
+                    <g transform="matrix(1.51165,0,0,8.65386,-1817.33,-482.957)">
+                        <path d="M2432.36,169.203L2410.71,169.203C2409.61,167.304 2409.03,165.151 2409.03,162.959C2409.03,156.066 2414.64,150.47 2421.53,150.47C2428.43,150.47 2434.03,156.066 2434.03,162.959C2434.03,165.151 2433.45,167.304 2432.36,169.203Z" style="fill:rgb(255,147,158);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

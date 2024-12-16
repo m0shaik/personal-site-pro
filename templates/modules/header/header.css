@@ -1,0 +1,24 @@
+header{
+
+
+	inner-column{
+		padding-inline: 0;
+
+	}
+
+	@media (min-width: 1024px){
+		margin-left: var(--space-l);
+		background: var(--ink);
+		position: sticky;
+		top:0;
+		max-height: fit-content;
+
+		inner-column{
+			min-width: var(--space-l);
+			display: grid;
+			justify-items: center;
+		}
+	}
+
+
+}

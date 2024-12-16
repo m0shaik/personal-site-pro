@@ -1,0 +1,31 @@
+.project-overview{
+	h2{
+
+		@media (min-width: 650px) {
+
+			text-align: center;
+			
+		}
+
+	}
+
+	p{
+		line-height: 2em;
+	
+
+		@media (min-width: 650px) {
+			text-align: center;
+		}
+	}
+
+	a{
+
+		margin-top: var(--space-m);
+		
+		@media (min-width: 650px) {
+
+			text-align: center;
+			
+		}
+	}
+}

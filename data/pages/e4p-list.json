@@ -1,0 +1,16 @@
+{
+
+  "title" : "Exercises for Programmers",
+  "intro" : "Go through my projects and leave a feedback",
+  "sections": [
+    {
+      "module" : "generic-text",
+      "heading" : "Exercises for Programmers",
+      "description" : "These exercises provided me with a solid foundation in fundamental programming concepts such as input/output, and processing strings and numbers"
+    },
+
+    {
+      "module": "e4p-list"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+
+	"title" : "My Projects",
+	"intro" : "Go through my projects and leave a feedback",
+	"sections": [
+		{
+			"module" : "generic-text",
+			"heading" : "Explore, Navigate, and Learn! ",
+			"description" : "That’s what it took me to create some of the work below."
+		},
+
+		{
+			"module": "project-list"
+		}
+	]
+}

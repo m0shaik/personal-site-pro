@@ -1,0 +1,21 @@
+.contact-list {
+	
+
+
+	li {
+		padding: var(--space-m);
+
+		@media (min-width: 650px) {
+/*		padding: 100px;*/
+			
+		}
+	}
+
+	ul {
+		@media (min-width: 650px) {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+			
+		}
+	}
+}

@@ -1,0 +1,60 @@
+
+
+
+.first{
+
+	ul{
+		display: grid;
+		gap: 20px;
+		grid-template-columns: repeat(3, 1fr);
+
+	p{
+		max-width: 240px;
+	}
+	}
+
+
+	h1 + p{
+		padding-top: 20px;
+	}
+
+	p {
+		padding-bottom: 20px;
+	}
+
+	h2 + p{
+		padding-top: 20px;
+	}
+
+	h2{
+		border-top: 2px solid black;
+		padding-top: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+.images{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: var(--space-m);
+
+	@media (min-width: 1024px) {
+
+		display: flex;
+		flex-direction: row;
+
+
+
+}
+
+
+
+
+}

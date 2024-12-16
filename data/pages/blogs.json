@@ -1,0 +1,29 @@
+{
+
+	"title" : "Blogs",
+	"intro" : "Check my blogs",
+	"sections": [
+		{
+			"module" : "generic-text",
+			"heading" : "",
+			"description" : "Feel free to reach out to me if any of my mentioned skills align with your field of interest. I come with an upbeat attitude on life and no amount of work is a challenge to me. I find efficient ways to resolve a problem and often tend to go the extra mile."
+		},
+		{
+			"module" : "graphic-diptych",
+			"image" : "blog-image.svg",
+			"description" : ""
+		},
+
+
+		{
+			"module" : "generic-text",
+			"heading" : "",
+			"description" : "Learning software development was (or still is) a challenging journey for me since I did not come from a tech background. The syntax alone made me want to avoid this field several times. I had to push myself to learn and often ended up hitting brick walls which took a lot of time to navigate around. There would be frustration built up around me for errors as simple as missing a colon."
+		},
+		{
+			"module" : "blogs-list"
+
+		}
+
+	]
+}

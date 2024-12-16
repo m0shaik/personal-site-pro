@@ -1,0 +1,78 @@
+.quote-card{
+	inner-column{
+		blockquote{
+			display: flex;
+			flex-direction: row-reverse;
+			gap: var(--space-s);
+
+			@media (min-width: 650px){
+				flex-direction: column-reverse;
+				gap: 0;
+			}
+
+			h2{
+				writing-mode: vertical-lr;
+				padding: var(--space-xs) ;
+				background: var(--ink);
+				color: var(--paper);
+
+				@media (min-width: 650px){
+					writing-mode: horizontal-tb;
+					text-align: center;
+					text-transform: uppercase;
+					letter-spacing: 1.5rem;
+					background: var(--paper);
+					color: var(--ink);
+					border: 2px solid var(--ink);
+					
+					
+				}
+
+				@media (min-width: 1024px){
+
+					width: 100%;
+					text-align: right;
+					background: var(--ink);
+					color: var(--paper);
+					letter-spacing: 0.1rem;
+					position: relative;
+
+					.albert-design{
+						background: var(--paper);
+						height: 5px;
+						width: 60%;
+						position: absolute;
+						top: calc(50% - 2.5px);
+						left: 10px;
+
+					}
+
+					
+				}
+				
+
+			}
+
+			p{
+				border-bottom: 2px solid var(--ink);
+				letter-spacing: 0.28em ;
+				line-height: 2.5em;
+				@media (min-width: 650px){
+					background: var(--ink);
+					color: var(--paper);
+					padding: var(--space-s);
+					text-align: center; 
+					line-height: 1.5em;
+				}
+				@media (min-width: 1024px){
+
+					background: var(--paper);
+					color: var(--ink);
+					border: 2px solid var(--ink);
+					
+				}
+
+			}
+		}
+	}
+}

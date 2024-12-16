@@ -1,0 +1,64 @@
+.resume-list{
+
+
+
+	.experience{
+
+				display: flex;
+				flex-directon: column;
+				flex-wrap: wrap;
+				border: 2px solid var(--ink);
+				margin-block: var(--space-m);
+
+
+			@media (min-width: 650px){
+				display: grid;
+				grid-template-columns: 1fr 1fr ;
+				border: 2px solid var(--ink);
+				margin-block: var(--space-m);
+			}
+
+
+			.experience-heading{
+
+				padding: var(--space-xs);
+				h3 , p {
+					margin-block: var(--space-xs);; 
+				}
+
+				@media (min-width: 650px){
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: var(--space-s);
+
+				}
+			}
+
+	.experience-details{
+				padding: var(--space-xs);
+				background: var(--ink);
+				color: var(--paper);
+
+				p{
+					list-style-type: square;
+					margin-block: var(--space-m);
+				}
+
+			@media (min-width: 650px){
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: var(--space-m);
+
+
+				
+			}
+			}
+
+		}
+
+	
+
+
+}

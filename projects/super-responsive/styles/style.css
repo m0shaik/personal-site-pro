@@ -1,0 +1,272 @@
+@import 'reset.css';
+@import'setup.css';
+@import'header.css';
+@import'footer.css';
+
+/*section one*/
+
+.first-section{
+	background-color: #d55458;
+	
+}
+
+.first-section picture{
+	min-width: 250px;
+	padding: 10px;
+}
+
+
+
+
+h1{
+	
+	font-size: clamp(32px, 10vw, 40px);
+	font-family: Cormorant Garamond;
+	border-bottom: 2px solid white;
+	font-style: oblique;
+	font-weight: 700;
+	padding: 5px;
+	color: white;
+}
+
+.content p{
+	
+	font-size: 16px;
+	font-family: fira-sans;
+	line-height: 1.2;
+	margin-top: 20px;
+	padding: 5px;
+	color: white;
+}
+
+
+
+
+/*section one end*/
+
+/*section two*/
+
+.second-section{
+	background-color: white;
+	border: 2px solid black;
+}
+
+.second-section h2{
+	font-size: clamp(32px, 10vw, 40px);
+	font-family: Cormorant Garamond;
+	border-bottom: 2px solid #d55458;
+	font-style: oblique;
+	font-weight: 700;
+	padding: 5px;
+	color: #d55458;
+}
+
+.second-section  p{
+	
+	font-size: 16px;
+	font-family: fira-sans;
+	line-height: 1.2;
+	margin-top: 20px;
+	padding: 5px;
+	color: #d55458;
+	
+}
+
+.second-section button{
+	max-width: 180px;
+	background-color: #d55458;
+	font-family: fira-sans;
+	font-size: 12px;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	margin-top: 20px;
+}
+
+.second-section button:hover {
+	background-color: #a4517d;
+	transition-duration: 0.4s;
+}
+
+/*section two end*/
+
+/*section three*/
+
+.third-section{
+	background-color: #d55458;
+}
+
+.first-box{
+	padding: 10px;
+
+}
+
+.first-box h2{
+	font-size: clamp(32px, 10vw, 40px);
+	border-bottom: 2px solid white;
+	font-family: Cormorant Garamond;
+	font-style: oblique;
+	color: white;
+	font-weight: 700;
+	padding: 5px;
+	color: white;
+}
+
+.first-box  p{
+	font-family: fira-sans;
+	color: white;
+	font-size: 16px;
+	line-height: 1.2;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	color: white;
+}
+
+.second-box h2{
+	font-size: clamp(32px, 10vw, 40px);
+	font-family: Cormorant Garamond;
+	border-bottom: 2px solid white;
+	color: white;
+	font-style: oblique;
+	font-weight: 700;
+	padding: 5px;
+}
+
+
+.second-box  p{
+	font-size: 16px;
+	font-family: fira-sans;
+	color: white;
+	line-height: 1.2;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.second-box button{
+	max-width: 180px;
+	background-color: white;
+	color: #d55458;
+	font-size: 12px;
+	border: none;
+	font-family: fira-sans;
+	padding: 10px;
+	
+	margin: 20px 0px 20px 0px;
+}
+
+.second-box button:hover {
+	background-color: #a4517d;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+
+
+.article-card-1, .article-card-2, .article-card-3, .article-card-4, .article-card-5, .article-card-6 {
+	
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+/*section three ends*/
+
+/*section four*/
+
+.fourth-section{
+	background-color: white;
+	border: 2px solid black;
+}
+
+
+.fourth-section h2{
+	font-size: clamp(32px, 10vw, 40px);
+	font-family: Cormorant Garamond;
+	color: #d55458;
+	font-style: oblique;
+	font-weight: 700;
+	padding: 5px;
+	border-bottom: 2px solid #d55458;
+}
+
+.fourth-section p{
+	font-size: 16px;
+	font-family: fira-sans;
+	color: #d55458;
+	line-height: 1.2;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.fourth-section button{
+	max-width: 180px;
+	background-color: #d55458;
+	font-family: fira-sans;
+	color: white;
+	font-size: 12px;
+	border: none;
+	padding: 10px;
+	margin: 20px 0px 20px 0px;
+}
+
+.fourth-section button:hover {
+	background-color: #a4517d;
+	transition-duration: 0.4s;
+}
+/*section four ends*/
+
+@media (min-width: 700px){
+
+	.first-section .inner-column{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.first-section picture{
+		min-width: 300px;
+		min-height: 300px;
+
+	}
+
+	.second-section{
+		padding: 50px;
+	}
+
+	.second-section .inner-column{
+		border: 0;
+	}
+
+	.third-section .second-box{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 20px;
+		gap: 10px;
+		
+	}
+
+	.fourth-section{
+		padding: 50px;
+	}
+
+	.fourth-section .inner-column{
+		border: 0;
+	}
+
+}
+
+@media (min-width: 1000px) {
+
+	.third-section .second-box{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr ;
+/*		margin-top: 20px;*/
+/*		gap: 10px;*/
+		
+	}
+
+}
+
+

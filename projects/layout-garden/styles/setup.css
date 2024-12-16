@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+picture {
+  display: block;
+  /* inline by default (browser's choice) */
+}
+
+img {
+  display: block; /* it's inline-block by default */
+  width: 100%; /* fill it's parent element */
+  height: auto; 
+  /* 
+    to cover the inline presentation attributes 
+    and keep it ratioed up 
+  */
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	/* remove default link styles */
+	/* set links to be blocks so you can wrap thing */
+	/* inline elements can't have block elements inside! */
+}
+
+p a { /* "all links in paragraphs..." */
+	display: inline-block;
+	text-decoration: underline;
+	color: blue; /* put back styles for normal links */
+}
+
+inner-column{
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+
+}

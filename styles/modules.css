@@ -1,0 +1,35 @@
+
+
+@import '../templates/components/site-nav/site-nav.css';
+@import '../templates/components/project-card/project-card.css';
+@import '../templates/components/standard-card/standard-card.css';
+
+
+@import '../templates/modules/header/header.css';
+@import '../templates/modules/footer/footer.css';
+@import '../templates/modules/graphic-diptych/graphic-diptych.css';
+@import '../templates/modules/generic-text/generic-text.css';
+@import '../templates/modules/project-list/project-list.css';
+@import '../templates/modules/contact-list/contact-list.css';
+@import '../templates/modules/quote-card/quote-card.css';
+@import '../templates/modules/name-card/name-card.css';
+@import '../templates/modules/about-cards/about-cards.css';
+@import '../templates/modules/resume-list/resume-list.css';
+@import '../templates/modules/goals-list/goals-list.css';
+@import '../templates/modules/blogs-list/blogs-list.css';
+@import '../templates/modules/project-about/project-about.css';
+@import '../templates/modules/project-overview/project-overview.css';
+@import '../templates/modules/e4p-list/e4p-list.css';
+@import '../templates/modules/e4p-form/e4p-form.css';
+@import '../templates/modules/layout-1/layout-1.css';
+@import '../templates/modules/layout-2/layout-2.css';
+@import '../templates/modules/layout-3/layout-3.css';
+@import '../templates/modules/layout-4/layout-4.css';
+@import '../templates/modules/layout-5/layout-5.css';
+
+
+
+
+
+
+

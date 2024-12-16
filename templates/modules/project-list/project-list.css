@@ -1,0 +1,14 @@
+.project-list {
+
+
+	ul {
+		display: grid;
+		gap: var(--space-m);
+
+		@media (min-width: 650px) {
+			grid-template-columns: 1fr 1fr;
+			gap: var(--space-l);
+		}
+	}
+}
+

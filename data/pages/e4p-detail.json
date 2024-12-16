@@ -1,0 +1,10 @@
+{
+
+	"title" : "Exercises for Programmers",
+	"intro" : "These exercises provided me with a solid foundation in fundamental programming concepts such as input/output, and processing strings and numbers",
+	"sections": [
+		{
+			"module" : "e4p-form"
+		}
+	]
+}

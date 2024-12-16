@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+
+body * {
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.inside-column {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+picture{
+	display: block;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+header .inside-column{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content:space-between;
+}
+
+span{
+
+	border-radius: 50%;
+}
+
+.welcome h1{
+/*	display: none;*/
+} 
+
+
+@media (min-width: 800px) {
+
+	.welcome .welcome-flex{
+	display: flex;
+}
+
+
+	.images {
+
+		display: flex;
+	}
+}
+
+
+
+.images picture{
+
+	width: 150px;
+}
+
+.career-box-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.career-box-1{
+
+	width: 300px;
+}
+
+footer .inside-column{
+
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content:space-between;
+}
+
+
+
+
+

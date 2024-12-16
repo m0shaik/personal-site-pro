@@ -1,0 +1,62 @@
+.e4p-list{
+
+	li + li {
+		margin-top: var(--space-l);
+
+		@media (min-width: 650px) {
+			margin-top: 0;
+		}
+	}
+
+	ul{
+
+		@media (min-width: 650px) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: var(--space-s);
+			align-items: stretch;
+		}
+
+		@media (min-width: 1024px) {
+
+			grid-template-columns: repeat(3, 1fr);
+
+
+
+		}
+	}
+
+
+
+	.e4p-card{
+
+
+
+
+		a{
+			display: flex;
+			flex-flow: column;
+			height: 100%;
+
+			h2{
+				text-align: center;
+				border: 2px solid black;
+				padding: var(--space-s);
+				flex-grow: 1;
+			}
+
+
+			p{
+				text-align: center;
+				border: 2px solid black;
+				padding: var(--space-s);
+				margin-top: 0;
+				background: var(--ink);
+				color: var(--paper);
+				flex-grow: 1;
+			}
+		}
+	}
+
+
+}

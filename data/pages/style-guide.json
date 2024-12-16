@@ -1,0 +1,103 @@
+{
+
+	"title" : "style-guide",
+	"intro" : "This is my style-guide",
+	"sections": [
+		{
+			"module" : "generic-text",
+			"heading" : "Style guide",
+			"description": "This is my website's style guide, which is still under development. But don't worry, if you want to know how everything on my site works, this is the ideal place to look. To help you navigate and get the most out of your experience, I've compiled all the specifics here. Have fun exploring!"
+		},
+		{
+			"module" : "name-card"
+		},
+		{
+			"module" : "quote-card"
+		},
+		{
+			"module" : "layout-1"
+		},
+		{
+			"module" : "layout-2"
+		},
+		{
+			"module" : "layout-3"
+		},
+		{
+			"module" : "layout-4"
+		},
+		{
+			"module" : "layout-5"
+		},
+
+		{
+			"module" : "goals-list"
+
+		},
+		{
+			"module" : "resume-list",
+			"heading" : "Resume Heading",
+			"experiences": [
+				{
+					"heading": "Experience Heading",
+					"location": "Location Heading",
+					"date": "Date of Completion",
+					"details": [
+						"Details line 1 is going to be here.",
+						"Details line 1 is going to be here..",
+						"Details line 1 is going to be here..."
+					]
+				}
+			]
+		},
+		{
+			"module" : "graphic-diptych",
+			"image" : "images/square.jpg"
+		},
+		{
+			"module" : "contact-list",
+			"contacts" : [
+				
+				{
+					"name" : "linkedin",
+					"image" : "images/square.jpg",
+					"link" : "https://www.linkedin.com/in/shaik-mohammed-65a182162/"
+				},
+
+				{
+					"name" : "instagram",
+					"image" : "images/square.jpg",
+					"link" : "https://www.instagram.com/"
+				},
+				{
+					"name" : "email",
+					"image" : "images/square.jpg",
+					"link" : "mailto:shaikm66@gmail.com"
+				}
+
+			]
+		},
+		{
+			"module" : "about-cards"
+		},
+
+		{
+			"module" : "project-list"
+		},
+
+		{
+			"module" : "project-about"
+		},
+		{
+			"module" : "project-overview"
+		},
+		{
+			"module" : "blogs-list"
+		},
+		{
+			"module" : "e4p-list"
+		}
+
+	]
+}
+

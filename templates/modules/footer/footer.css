@@ -1,0 +1,129 @@
+.contact-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-contact.svg);
+				}
+	}
+	
+	}
+
+}
+
+.projects-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-projects.svg);
+				}
+	}
+	
+	}
+
+}
+
+.blogs-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-blogs.svg);
+				}
+	}
+	
+	}
+
+}
+
+.resume-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-resume.svg);
+				}
+	}
+	
+	}
+
+}
+
+.style-guide-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-style-guide.svg);
+				}
+	}
+	
+	}
+
+}
+
+.project-detail-page {
+	footer {
+		.decoration-second{
+			@media(min-width: 650px) {
+					background-image: url(../../../images/decoration-projects.svg);
+				}
+	}
+	
+	}
+
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 2fr 1fr 0.5fr 0.25fr;
+	gap: 2px;
+	position: relative;
+
+	@media(min-width: 650px) {
+			grid-template-columns: 1fr 0.5fr 0.25fr;
+		}
+
+	@media(min-width: 1024px) {
+			grid-template-columns: 2fr 1fr 0.5fr 0.25fr;
+		}
+
+
+	div {
+		background: var(--ink);
+		height: 100%;
+	}
+
+	.decoration-main{
+		@media(min-width: 650px) {
+			display: none;
+		}
+		@media(min-width: 1024px) {
+			background-color: unset;
+			background-repeat: no-repeat;
+			display: block;
+			background-image: url(../../../images/decoration-mshaik.svg);
+			position: sticky;
+			top: 0;
+			height: 100vh;
+			background-position: right;
+
+
+		}
+	}
+
+	.decoration-second{
+
+		@media(min-width: 650px){
+		background-image: url(../../../images/decoration-webdev.svg);
+		background-repeat: repeat-y;
+		background-size: 110%;
+
+
+		}
+		}
+
+	}
+
+
+
+
+
+}
+

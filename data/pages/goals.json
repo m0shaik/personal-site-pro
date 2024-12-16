@@ -1,0 +1,47 @@
+{
+
+	"title" : "Goals",
+	"intro" : "1-5-10 year goals",
+	"sections": [
+		{
+			"module" : "goals-list",
+			"heading" : "1-Year",
+			"goals": [
+
+				"Learn to code in more languages.",
+				"Able enough to create templates.",
+				"Get into a healthy workout routine.",
+				"Launch a web studio with my peers."
+
+
+			]
+		},
+		{
+			"module" : "goals-list",
+			"heading" : "5-Year",
+			"goals": [
+
+				"Attract 10+ business per year through the web studio.",
+				"Lead projects for establishments.",
+				"Travel 15+ countries and learn their culture.",
+				"Be fluent in a new language."
+
+
+			]
+		},
+		{
+			"module" : "goals-list",
+			"heading" : "10-Year",
+			"goals": [
+
+				"Educate and guide needful youth..",
+				"Be a wonderful father to my kids.",
+				"Meditate and bring joy to my workspace.",
+				"Be fluent in 3 new languages."
+
+
+			]
+		}
+	]
+}
+

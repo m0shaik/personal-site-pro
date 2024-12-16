@@ -1,0 +1,31 @@
+/*@import 'developer-styles.css';*/
+
+html {
+	--black: hsla(0, 0%, 7%, 1.00);
+	--white: #efefef;
+
+
+	--neutral-stuffs: gray;
+
+	--color: rgb(229,255,0);
+	--highlight: hsla(190, 90%, 60%, 1.00);
+
+	--shadow: rgba(0,0,0,.8);
+
+	--space-xl: 70px;
+	--space-l: 50px;
+	--space-m: 30px;
+	--space-s: 20px;
+	--space-xs: 10px;
+
+	--corners: 10px; /* or whatevers */
+
+	--paper: var(--color); /*shadier dodgerblue*/
+	--ink: var(--black);
+
+	--three-lines: 20px 0px var(--ink), 22px 0px var(--paper), 32px 0px var(--ink), 34px 0px var(--paper), 39px 0px var(--ink);
+
+/*	spacing */
+
+}
+

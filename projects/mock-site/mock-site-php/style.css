@@ -1,0 +1,260 @@
+* {box-sizing: border-box;}
+
+body * {
+	
+}
+
+.inside-column {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 32px 16px;
+}
+
+picture{
+	display: block;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+header{
+	background-image: radial-gradient(#7cbebe, #c3ddd8);
+
+	position: sticky;	
+	top: 0;
+
+}
+
+header .inside-column{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content:space-between;
+	
+
+
+
+}
+
+span{
+	font-family: helvetica;
+	font-size: 20px;
+	
+
+
+}
+
+p,li,a{
+	font-family: helvetica;
+
+}
+
+ p,li{
+
+	letter-spacing: 0.1em;
+	line-height: 1.2em;
+}
+
+h2+p{
+	padding-top:5px;
+}
+
+
+.welcome{
+	background-image: linear-gradient(0deg, #f5e6da,#f2bbbb);
+}
+
+.welcome h1{
+font-size: 30px;
+font-family: Georgia, serif;
+margin-bottom: 20px;
+
+} 
+
+
+.welcome-flex div + div {
+	margin-top: 24px;
+}
+
+.welcome-box{
+	border: 2px solid black;
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	
+
+
+}
+
+.welcome-box h2{
+	font-size: 22px;
+	
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+
+
+.about-box{
+	border: 2px solid black;
+	max-width: 300px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.about-box h2{
+	font-size: 22px;
+	
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+
+
+.service-box{
+	border: 2px solid black;
+	max-width: 300px;
+	text-align: center;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.service-box h2{
+	font-size: 22px;
+	
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+
+.pictures h1{
+	font-size: 30px;
+	font-family: Georgia, serif;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.pictures{
+
+	background-image: linear-gradient(0deg, #7a161d,#a78cc4);
+
+}
+
+.career-box-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.careers{
+
+	background-image: linear-gradient(90deg, #66cceb,#f4bf42);
+
+}
+
+.career-box-1{
+
+	border: 2px solid black;
+	
+	
+	padding: 20px;
+	
+}
+
+.career-box-1 h2{
+	font-size: 22px;
+	font-family: sans-serif;
+	border-right: 2px solid red;
+	text-align: center;
+	padding-right: 15px;
+	padding: 20px;
+	
+
+}
+
+.career-box-2{
+
+	border: 2px solid black;
+	
+	
+	padding: 20px;
+}
+
+.career-box-2 li{
+	text-align: center;
+}
+
+.contact h1{
+
+font-size: 30px;
+font-family: Georgia, serif;
+margin-bottom: 20px;
+}
+
+.contact{
+
+	background-image: linear-gradient(90deg, #3e866e,#7ee7a3);
+
+}
+
+@media (min-width: 800px) {
+
+	.welcome .welcome-flex{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+
+}
+
+
+	.images {
+
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+	.images picture{
+
+	width: 150px;
+}
+}
+
+.images li + li {
+	margin-top: 16px;
+
+}
+
+
+
+footer {
+	background-image: radial-gradient(#7cbebe, #c3ddd8);
+}
+
+
+footer .inside-column{
+
+	display: flex;
+	align-items: center;
+	height: 50px;
+	justify-content:space-between;
+}
+
+
+strong{
+	font-weight: 1000;
+}
+
+h1, h2{
+
+	font-family: Georgia, serif;
+}
+

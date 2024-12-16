@@ -1,0 +1,56 @@
+[
+	{
+		
+		"name" : "E4P",
+		"id" : "e4p",
+		"date" : "09/06/2022",
+		"description" : "A series of rigourous programming exercises.",
+		"detail-link" : "?page=project-detail&id=e4p",
+		"live-link" : "?page=e4p-list",
+		"image" : "images/e4p.svg",
+		"what": "Design & Development",
+		"when": "July 2022",
+		"where" : "Remote @Perpetual Education",
+		"overview" : "Working through Exercises for Programmers was like a coding bootcamp I could dive into anytime, anywhere. Each challenge in the book focuses on practical tasks—things like calculating loan payments, creating simple calculators, or tracking sales figures. These exercises gave me the chance to dig into real-world coding scenarios where I could implement logic, refactor, and improve as I went along. I approached each problem by first planning a basic structure, coding a rough solution, and then iterating to make it cleaner and more efficient."
+
+	},
+	{
+		"name" : "TURAN PAINTS",
+		"date" : "19/06/2022",
+		"id" : "turan",
+		"description" : "A family owned Painting business.",
+		"detail-link" : "?page=project-detail&id=turan",
+		"live-link" : "#",
+		"image" : "images/turan.svg",
+		"what": "Design & Development",
+		"when": "July 2022",
+		"where" : "Toronto",
+		"overview" : "A family owned Painting business that provides varities of services. The client needed a colorful site that was not too complex to look at. They demanded for alot of pictures and painting vibe from this project to display a more vibrant side of their business. "
+	},
+	{
+		"name" : "PIZZA NANO",
+		"id" : "pizza-nano",
+		"date" : "22/09/2022",
+		"description" : "Newly launched neighbourhood Pizza place.",
+		"detail-link" : "?page=project-detail&id=pizza-nano",
+		"live-link" : "#",
+		"image" : "images/pizza-nano.svg",
+		"what": "Design & Development",
+		"when": "September 2022",
+		"where" : "Toronto",
+		"overview" : "An upcoming Pizza store based in Canada approached for a website that can be turned into a full online shop later. They provided the color range and also expected the quality of everthing to be used of top-notch. Their main focus was to display a menu of all that their store had to offer."
+	},
+		{
+		"name" : "Style-guide",
+		"id" : "style-guide",
+		"date" : "09/06/2022",
+		"description" : "Collection of the styles used on this site.",
+		"detail-link" : "?page=style-guide&id=style-guide",
+		"live-link" : "#",
+		"image" : "images/style-guide.svg ",
+		"what": "Design & Development",
+		"when": "July 2022",
+		"where" : "Remote @Perpetual Education",
+		"overview" : "Hey! This is the style guide for my website, and it's still a work in progress. But no worries, it's the perfect place to check out if you want to understand how everything works on my site. I've gathered all the nitty-gritty details right here, so you can easily navigate and make the most out of your experience. Enjoy exploring!"
+	}
+]

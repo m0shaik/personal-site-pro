@@ -1,0 +1,38 @@
+.blogs-list{
+
+	ul{
+		@media(min-width: 650px)  {
+			display: grid;
+			grid-template-columns: auto auto;
+			align-content: start;
+			align-items: end;
+			gap: var(--space-m);
+		}
+		@media(min-width: 1024px)  {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	
+		li + li{
+			margin-top: var(--space-xl);
+		} 
+
+		.article-card{
+			 padding: var(--space-xs);
+
+			picture{
+				aspect-ratio: 16/9;
+			}
+
+			h3{
+				margin-block: var(--space-xs);
+			}
+
+			p{
+				margin-block: var(--space-xs);
+				text-align: right;
+			}
+	}
+}

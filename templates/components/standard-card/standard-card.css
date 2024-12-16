@@ -1,0 +1,16 @@
+.standard-card{
+
+	border: 2px solid var(--ink);
+	padding: var(--space-s);
+	margin-right: var(--space-m);
+
+	box-shadow: var(--three-lines) ;
+
+	@media (min-width: 650px) {
+		height: 100%;
+		display: grid;
+		align-items: center;
+
+	}
+
+}

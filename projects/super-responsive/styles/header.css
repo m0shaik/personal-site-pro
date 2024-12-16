@@ -1,0 +1,107 @@
+header{
+	background-color: white;
+
+	.inner-column	{
+		
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 0px;
+	/*	gap: 10px;*/
+
+	}
+}
+
+header a{
+	font-family: Cormorant Garamond;
+	font-style: oblique;
+	font-weight: 550;
+	color: #e74853;
+	padding: 5px;
+}
+
+header a {
+  background-image: linear-gradient(
+    to right,
+    #c65c5c,
+    #c65c5c 50%,
+     #c65c5c  50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+header a:before{
+  content: '';
+  background:  #c65c5c ;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+ background-position: 0;
+}
+
+header a:hover::before{
+  width: 100%;
+}
+
+
+
+.first-icons nav {
+	
+	padding: 10px;
+	display: flex;
+
+
+}
+
+.logo{
+	max-width: 50px;
+	padding: 0;
+
+
+}
+
+
+.second-icons {
+	
+	padding: 10px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	border-bottom: 2px solid #e74853 ;
+
+}
+
+.second-icons a {
+	
+
+}
+
+@media (min-width: 700px) {
+
+	header .inner-column{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+
+	}
+
+	.second-icons{
+		display: flex;
+		flex-direction: row-reverse;
+		border-bottom: 2px solid #e74853 ;
+		
+		
+	}
+}

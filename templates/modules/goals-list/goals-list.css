@@ -1,0 +1,42 @@
+.goals{
+	inner-column{
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: var(--space-m);
+
+		@media(min-width: 1024px) {
+			
+			margin-bottom: var(--space-m);
+			display: flex;
+
+		}
+	}
+
+	h2{
+		writing-mode: vertical-rl;
+		rotate: 180deg;
+		padding: var(--space-xs);
+		letter-spacing: 0.3em;
+		background: var(--ink);
+		color: var(--paper);
+
+		@media(min-width: 1024px) {
+				
+			letter-spacing: 0.5em;
+
+		}
+
+	}
+
+
+
+
+	.titles{
+		display: grid;
+		align-items: center;
+
+		li{
+			list-style-type: square;
+		}
+	}
+}

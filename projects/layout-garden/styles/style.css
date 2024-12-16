@@ -1,0 +1,521 @@
+@import 'reset.css';
+@import'setup.css';
+
+
+* {box-sizing: border-box;}
+
+picture {
+  display: block;
+	overflow: hidden;
+  /* inline by default (browser's choice) */
+}
+
+img {
+  display: block; /* it's inline-block by default */
+  width: 100%; /* fill it's parent element */
+  height: auto; 
+  /* 
+    to cover the inline presentation attributes 
+    and keep it ratioed up 
+  */
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	/* remove default link styles */
+	/* set links to be blocks so you can wrap thing */
+	/* inline elements can't have block elements inside! */
+}
+
+p a { /* "all links in paragraphs..." */
+	display: inline-block;
+	text-decoration: underline;
+	color: blue; /* put back styles for normal links */
+}
+
+
+
+.inner-column{
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 15px;
+
+}
+/* typography */
+.hard-volume{
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 600;
+/* 	text-align: center; */
+/* 	text-decoration: underline; */
+}
+
+.soft-volume{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 500;
+/* 	text-align: center; */
+}
+
+p,a{
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	padding: 5px;
+	font-size: 16px;
+	font-family: helvetica;
+}
+
+summary{
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	padding: 5px;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+/*  */
+
+body{
+		background-color: #d6dffb
+}
+
+.gear1{
+	display: none;
+	
+}
+
+.gear2{
+	display: none;
+}
+
+.gear3{
+	display: none;
+}
+
+
+
+header .inner-column{
+	display: flex;
+	align-items: center; 
+	gap: 10px;
+	padding: 15px;
+}
+
+
+header picture {
+	border-radius: 50%;
+/* 	height: 30px; */
+	width: 30px;
+}
+
+header picture {
+	border-radius: 50%;
+}
+
+.first{
+	background-color: #7694f5;
+
+	
+}
+
+.first .inner-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.first picture{
+	max-width: 300px;
+	
+}
+
+.second .box picture{
+	border-radius: 50%;
+	max-width: 30%;
+	border: 2px solid black;
+	
+}
+
+
+.box{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.box+.box{
+	margin-top: 20px;
+}
+
+.box a{
+	text-decoration: underline;
+}
+	
+footer{
+	background-color: #384877;
+}
+
+footer p{
+	color: white;
+}
+
+.text-content{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+/*tom-cruise-section*/
+
+.third{
+	background-color: #4ca772;
+}
+
+.third picture{
+
+	box-shadow: 5px 5px black;
+	border-radius: 1%;
+}
+
+.third details{
+
+	border-bottom: 1px solid ;
+  border-radius: 4px;
+  padding: 1.2em 0.5em 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+.third details[open] {
+  padding: 0.5em;
+}
+
+.third details[open] summary {
+  border-bottom: 1px solid #414857;
+  margin-bottom: 0.5em;
+}
+
+/*tom-cruise-section-ends*/
+
+
+@media (min-width: 700px){
+	
+	.first .inner-column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+		
+	}
+	.second{
+		position: relative;
+		overflow: hidden;
+	}
+	.gear3{
+		display: block;
+		position: absolute;
+		bottom: -80px;
+		right: -180px;
+		min-width: 400px;
+		opacity: 50%;
+	}
+	
+
+	
+	.second .box picture{
+	border-radius: 50%;
+	overflow: hidden;
+	max-width: 20%;
+	border: 2px solid black;
+	
+}
+	.box{
+		display: flex;
+		flex-direction: row;
+		align-items: centerl
+	}
+	
+	footer .inner-column{
+		display: flex;
+		gap: 10px;
+	}
+	
+	
+}
+
+@media (min-width: 1000px){
+	.inner-column{
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.first .inner-column{
+		align-items: start;
+	}
+	
+	.second .inner-column{
+		align-content: center;
+	}
+	
+	.box{
+		flex-direction: column;
+		align-items: center;
+/* 		border: 2px solid red; */
+	}
+	
+	.text-content{
+		align-items: center;
+		text-align: center;
+	}
+	
+	.second .inner-column{
+		display: flex;
+		align-items: center;
+		
+	}
+	
+	.first{
+		position: relative;
+		overflow: hidden;
+	}
+	.gear1{
+		display: block;
+		position: absolute;
+		min-width: 600px;
+		bottom: -170px;
+		left: -290px;
+		fill: #565965;
+		opacity: 70%;
+		
+		
+	}
+	
+	
+	
+	.gear2{
+		display: block;
+		position: absolute;
+		min-width: 550px;
+		bottom: -185px;
+		right: 0px;
+		opacity: 30%;
+		
+	}
+	
+	.box+.box{
+	margin-top: 0px;
+}
+
+	.third .inner-column{
+
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+
+
+}
+
+	.third picture{	
+
+		max-width: 350px;
+		flex: 0 0 auto;
+
+}
+
+
+
+
+	
+	.info-tom{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 20px 20px;
+
+	}
+
+	
+}
+
+/*samsung section*/
+
+.four, .item-list ul{
+	background-color: #ffffff;
+}
+h2{
+	font-size: 50px;
+	font-family: futura;
+	font-weight: 550;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	line-height: 1.2em;
+}
+
+h3{
+	font-size: 16px;
+	font-family: futura;
+	font-weight: 550;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+  .four nav ul{
+	display: flex;
+	gap: 40px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 20px;
+
+  a{
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 0px;
+		font-family: futura;
+		font-weight: 550;
+  }
+
+  a:hover{
+  	border-bottom: 2px solid black;
+  }
+
+}
+
+
+
+
+.item-list div, .item-list li{
+	background-color: #f6f7fa;
+	border-radius: 5%;
+	display: flex;
+	align-items: center;
+	}
+
+.item-list div{
+	margin-bottom: 20px;
+}
+
+.mobile{
+
+	flex-direction: row;
+	justify-content: space-around;
+	picture{
+		border-right: 8px solid white;
+		padding: 15px;
+	}
+	h3{
+		padding:15px;
+		text-align: left;
+	}
+
+}
+
+.item-list ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
+	picture{
+		max-width: 44%;
+	}
+}
+
+.item-list li{
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-around;
+	max-width: 44%;
+	padding: 15px;
+
+}
+
+@media (min-width: 700px){
+	.four{
+		.inner-column{
+		max-width: none;
+	}
+
+	ul{
+		overflow-x: hidden;
+		justify-content: center;
+		a{
+			font-size: 18px;
+		}
+	}
+
+	h2{
+		font-size: 40px;
+	}
+} 
+
+
+.mobile{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 60%;
+	picture{
+		border: none;
+	}
+	h3{
+		width: none;
+	}
+	picture{
+		width: 100%;
+	}
+}
+
+.item-list li{
+	flex-basis: 45%;
+	flex-direction: column;
+}
+
+.item-list{
+	display: flex;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

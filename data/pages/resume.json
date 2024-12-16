@@ -1,0 +1,137 @@
+{
+
+	"title" : "Resume",
+	"intro" : "My up to date resume.",
+	"sections": [
+		{
+			"module" : "generic-text",
+			"heading" : "Professional Summary",
+			"description": "I began my career as a Customer Support Exec for a small but busy store in my hometown while I was pursuing my bachelors. Upon completing my bachelors I was hired by Amazon as a Risk Analyst where I continued to monitor transactions and implement AML policies. In the meanwhile I pursued a bootcamp for web development from Perpetual Education. Upon completing my bootcamp, I graduated in Business and Hospitality management diploma program from Canada.I am currently enrolled as an intern for the web developing department in API3."
+		},
+		{
+			"module" : "resume-list",
+			"heading" : "Education",
+			"experiences": [
+				{
+					"heading": "PG diploma in Business &Hospitality Management",
+					"location": "Conestoga college, Kitchener. ON",
+					"date": "Jan 2023 - Apr 2024",
+					"details": [
+						"Educated on different business management styles across Canada.",
+						"Learnt various accounting and financial techniques.",
+						"Learnt organisational behaviour and work ethics practices."
+					]
+				},
+				{
+					"heading": "Web Development Bootcamp",
+					"location": "Perpetual Education: Design for The Web",
+					"date": "Oct 2019 - June 2018",
+					"details": [
+						"Learned key front-end technologies such as HTML, CSS, JavaScript, and React.",
+						"Built responsive, interactive websites with a focus on user experience and accessibility.",
+						"Completed hands-on projects simulating real-world web development scenarios."
+					]
+				},
+
+
+				{
+					"heading": "Bachelors in Commerce",
+					"location": "Arunachal University of Studies",
+					"date": "Mar 2015 - July 2018",
+					"details": [
+						"Played the position of Wide Receiver on the school football team from 2016 to 2018.",
+						"Volunteered on a monthly basis to prepare meals at the local community food bank.",
+						"Participated in the activism and protests in favour of the Andhra Pradesh Reorganization Act in 2014."
+					]
+				}
+
+			]
+		},
+		{
+			"module" : "resume-list",
+			"heading" : "Work",
+			"experiences": [
+				{
+					"heading": "Frontend Developer",
+					"location": "API3",
+					"date": "Dec 2022 - present",
+					"details": [
+						"Creating responsive and adaptive layouts for optimal viewing on various devices, ensuring cross-browser compatibility.",
+						"Writing clean, modular, and scalable code to improve site speed and reduce loading times.",
+						"Working closely with UX/UI designers to transform wireframes, prototypes, and designs into functional,interactive web pages.",
+						"Integrating RESTful APIs and managing data exchange between frontend and backend services.",
+						"Integrating RESTful APIs and managing data exchange between frontend and backend services.",
+						"Using CSS preprocessors (like Sass or LESS) and frameworks (Bootstrap, Tailwind) to streamline styling and layout structure."
+
+
+
+					]
+				},
+
+				{
+					"heading": "Transaction risk investigator",
+					"location": "Amazon India pvt ltd.",
+					"date": "Nov 2020 - sep 2022",
+					"details": [
+						"Executed analysis of risks and identified risk mitigation strategies.",
+						"Drafted 40 reports on company financial metrics to assess successes and account for deficiencies.",
+						"Evaluated trends to understand competitive environments and assess current strategies.",
+						"Integrating RESTful APIs and managing data exchange between frontend and backend services.",
+						"Applied honed problem-solving skills to analyze and resolve issues impacting business operations and goal achievement.",
+						"Provided customer service and was involved in training 5 new team members each month."
+
+
+
+					]
+				},
+
+				{
+					"heading": "Customer Relations Executive",
+					"location": "Karachi House, Telangana. Hyderabad",
+					"date": "Jan 2017 - Oct 2020",
+					"details": [
+						"Generated, compiled and distributed reports of sales leads and up-sell opportunities.",
+						"Managed customer service effectiveness by monitoring performance and assessing metrics.",
+						"Utilized crisis management techniques to offer corrective solutions and maximize customer satisfaction.",
+						"Integrating RESTful APIs and managing data exchange between frontend and backend services.",
+						"Executed company policies, procedures, and safety standards to ensure the proper cleanliness and safety of the office and equipment.",
+						"Offered strong customer service skills, keeping customers satisfied and increasing sales by an average of 75% annually."
+
+
+
+					]
+				}
+			]
+		},
+
+		{
+			"module" : "resume-list",
+			"heading" : "Skills",
+			"experiences" : [
+				{
+					"heading": "Technical Skills",
+					"location": "",
+					"date": "",
+					"details": [
+						"Frontend Development: HTML, CSS, JavaScript.",
+						"JavaScript Frameworks: React.",
+						"CSS Frameworks: Bootstrap, Tailwind.",
+						"CSS Preprocessors: Sass, LESS",
+						"API & Data Handling: RESTful API Integration (Front-end and back-end data exchange) Data Analysis Tools (Report drafting, financial report evaluation)",
+						"UI/UX Collaboration: Wire framing and Prototyping Translating designs into functional, interactive web interfaces User Experience (UX) Focused Development.",
+						"Version Control & Workflow: Git (Version control for collaborative development)",
+						"Risk & Business Analysis: Risk Analysis and Mitigation Strategies (Financial report assessment,risk identification)Competitor Analysis and Business Strategy"
+
+
+
+
+					]
+				}
+			]
+		}
+
+
+
+
+	]
+}

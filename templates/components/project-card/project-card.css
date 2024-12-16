@@ -1,0 +1,27 @@
+project-card {
+	display: grid;
+	grid-template-columns: 30px auto;
+	gap: var(--space-xs);
+
+	.project-date {
+		grid-column: 1;
+		grid-row: 1 / 4;
+		writing-mode: vertical-lr;
+		text-align: center;
+		margin-bottom: 0;
+
+		@media (min-width: 650px) {
+			writing-mode: unset;
+			grid-row: 4;
+		text-align: right;
+			margin-top: unset;
+		}
+	}
+
+	@media (min-width: 650px) {
+				grid-template-columns: unset;
+		}
+
+
+
+}

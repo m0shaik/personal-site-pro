@@ -1,0 +1,13 @@
+{
+
+	"title" : "Project",
+	"intro" : "Go through my projects and leave a feedback",
+	"sections": [
+		{
+			"module" : "project-about"
+		},
+		{
+			"module" : "project-overview"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+
+	"title" : "Contact Me",
+	"intro" : "Reach out for your development queries",
+	"sections": [
+		{
+			"module" : "generic-text",
+			"heading" : "",
+			"description" : "Feel free to reach out to me if any of my mentioned skills align with your field of interest. I come with an upbeat attitude on life and no amount of work is a challenge to me. I find efficient ways to resolve a problem and often tend to go the extra mile."
+		},
+		{
+			"module" : "contact-list",
+			"contacts" : [
+				
+				{
+					"name" : "linkedin",
+					"image" : "images/linkedin.svg",
+					"link" : "https://www.linkedin.com/in/shaik-mohammed-65a182162/"
+				},
+
+				{
+					"name" : "instagram",
+					"image" : "images/instagram.svg",
+					"link" : "https://www.instagram.com/"
+				},
+				{
+					"name" : "email",
+					"image" : "images/email.svg",
+					"link" : "mailto:shaikm66@gmail.com"
+				}
+
+			]
+		}
+
+
+	]
+}
